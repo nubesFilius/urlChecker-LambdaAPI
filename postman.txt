@@ -1,0 +1,1 @@
+https://icxou7xzil.execute-api.us-east-1.amazonaws.com/urlChecker/mydude.io:8080/malo.com/very.bad.com?root-domain=malware.com

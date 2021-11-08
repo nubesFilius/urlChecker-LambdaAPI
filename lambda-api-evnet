@@ -1,0 +1,43 @@
+{
+  "version":"2.0",
+  "routeKey":"GET /urlChecker/{proxy+}",
+  "rawPath":"/urlChecker/verybad.net/mydude.io:8080/malo.com",
+  "rawQueryString":"root-domain=malware.com",
+  "headers":{
+     "accept":"*/*",
+     "accept-encoding":"gzip, deflate, br",
+     "content-length":"0",
+     "host":"icxou7xzil.execute-api.us-east-1.amazonaws.com",
+     "postman-token":"14aa5f66-5fa1-4f48-acec-1de30e4e48ab",
+     "user-agent":"PostmanRuntime/7.26.8",
+     "x-amzn-trace-id":"Root=1-6188a47f-788af1dd18bd245a7d9ed6be",
+     "x-forwarded-for":"162.199.218.101",
+     "x-forwarded-port":"443",
+     "x-forwarded-proto":"https"
+  },
+  "queryStringParameters":{
+     "root-domain":"malware.com"
+  },
+  "requestContext":{
+     "accountId":"654111259666",
+     "apiId":"icxou7xzil",
+     "domainName":"icxou7xzil.execute-api.us-east-1.amazonaws.com",
+     "domainPrefix":"icxou7xzil",
+     "http":{
+        "method":"GET",
+        "path":"/urlChecker/verybad.net/mydude.io:8080/malo.com",
+        "protocol":"HTTP/1.1",
+        "sourceIp":"162.199.218.101",
+        "userAgent":"PostmanRuntime/7.26.8"
+     },
+     "requestId":"Id6j6iFMoAMEJSg=",
+     "routeKey":"GET /urlChecker/{proxy+}",
+     "stage":"$default",
+     "time":"08/Nov/2021:04:15:59 +0000",
+     "timeEpoch":1636344959229
+  },
+  "pathParameters":{
+     "proxy":"verybad.net/mydude.io:8080/malo.com"
+  },
+  "isBase64Encoded":false
+}

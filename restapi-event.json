@@ -1,0 +1,53 @@
+{
+  "resource":"/urlchecker/{proxy+}",
+  "path":"/urlchecker/mydude.io:8080/malo.com/very.bad.com",
+  "httpMethod":"GET",
+  "headers":"None",
+  "multiValueHeaders":"None",
+  "queryStringParameters":{
+     "root-domain":"malware.com"
+  },
+  "multiValueQueryStringParameters":{
+     "root-domain":[
+        "malware.com"
+     ]
+  },
+  "pathParameters":{
+     "proxy":"mydude.io:8080/malo.com/very.bad.com"
+  },
+  "stageVariables":"None",
+  "requestContext":{
+     "resourceId":"snspd7",
+     "resourcePath":"/urlchecker/{proxy+}",
+     "httpMethod":"GET",
+     "extendedRequestId":"IhHCxHawoAMFpjw=",
+     "requestTime":"09/Nov/2021:03:31:55 +0000",
+     "path":"/urlchecker/{proxy+}",
+     "accountId":"654111259666",
+     "protocol":"HTTP/1.1",
+     "stage":"test-invoke-stage",
+     "domainPrefix":"testPrefix",
+     "requestTimeEpoch":1636428715193,
+     "requestId":"84821235-b5f5-40db-a7b4-9fe4e6687d9d",
+     "identity":{
+        "cognitoIdentityPoolId":"None",
+        "cognitoIdentityId":"None",
+        "apiKey":"test-invoke-api-key",
+        "principalOrgId":"None",
+        "cognitoAuthenticationType":"None",
+        "userArn":"arn:aws:iam::654111259666:root",
+        "apiKeyId":"test-invoke-api-key-id",
+        "userAgent":"aws-internal/3 aws-sdk-java/1.12.76 Linux/5.4.134-73.228.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.302-b08 java/1.8.0_302 vendor/Oracle_Corporation cfg/retry-mode/standard",
+        "accountId":"654111259666",
+        "caller":"654111259666",
+        "sourceIp":"test-invoke-source-ip",
+        "accessKey":"ASIAZQTARXQJDHUW5R7Y",
+        "cognitoAuthenticationProvider":"None",
+        "user":"654111259666"
+     },
+     "domainName":"testPrefix.testDomainName",
+     "apiId":"uftjdpmss4"
+  },
+  "body":"None",
+  "isBase64Encoded":false
+}
